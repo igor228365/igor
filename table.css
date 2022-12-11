@@ -1,0 +1,38 @@
+body{
+    background-color: lightsalmon;
+}
+p{
+    background-color: salmon;
+    color: limegreen;
+    font-family: cursive;
+    font-size: 50px;
+}
+table{
+    border: double 5px red;
+    width: 50%;
+    border-collapse: collapse;
+}
+caption{
+    font-size: 50px;
+    color: yellow;
+}
+th,td{
+    border: solid 2px lime;
+    width: 25%;
+    height: 1cm;
+}
+th{
+    background-color: yellow;
+}
+tr:hover{
+    background-color: lightgray;
+}
+td:hover{
+    background-color: lime;
+    color: yellow;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+tr:nth-child(even){
+    background-color: limegreen;
+}
